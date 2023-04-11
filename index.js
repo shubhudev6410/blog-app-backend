@@ -7,7 +7,7 @@ const app = expres();
 
 // Using Middlewares
 
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: "https://blog-app-backend-o4d9.onrender.com/" }));
 app.use(expres.json());
 app.use(cookieParser());
 dotenv.config();
